@@ -18,7 +18,7 @@ def asw():
     mmk(y + ('| | |  __|| |    |  _  | |  _  || ___ \ |\/| |').center(44))
     mmk(g + ('| | | |___| \__/\| | | | | | | || |_/ / |  | |').center(44))
     mmk(g + ('\_/ \____/ \____/\_| |_/ \_| |_/\____/\_|  |_/\').center(44))
-    mmq(g + '-' * 45)
+    mmq(W + '-' * 45)
     mmk(c + 'Author   : Tech Abm ')
     mmk(c + 'Type     : Brute Force Gmail ')
     mmk(c + 'Github   : https://github.com/Tech-abm')
