@@ -12,7 +12,7 @@ c = '\x1b[36;1m'
 g = '\x1b[32;1m'
 
 def asw():
-    mmk(r + ('_/_/_/  _/      _/    _/_/    _/_/_/  _/  ').center(44))
+    mmk(r + (' _/_/_/  _/      _/    _/_/    _/_/_/  _/  ').center(44))
     mmk(r + ('_/        _/_/  _/_/  _/    _/    _/    _/  ').center(44))
     mmk(y + ('_/  _/_/  _/  _/  _/  _/_/_/_/    _/    _/').center(44))
     mmk(y + ('_/    _/  _/      _/  _/    _/    _/    _/ ').center(44))
@@ -53,7 +53,7 @@ def main():
     mmq(W + '-' * 45)
     print y + '1.' + g + '>> Brute Gmail'
     print y + '2.' + g + '>> Create Password list'
-    print y + '0. ' + g + 'exit\n'
+    print y + '0. ' + g +'>> exit\n'
     mmq(W + '-' * 45)
     kntd = raw_input(c + 'Slect Option ' + r + ': ' + g)
     if kntd == '1':
@@ -83,7 +83,7 @@ def login():
             print r + '[!] Input Email'
             time.sleep(1)
             login()
-        ktl = raw_input(g + 'Password ListðŸ‘‰(Abmhacker.txt): ' + c)
+        ktl = raw_input(g + 'Password List>>(Abmhacker.txt): ' + c)
         mmq(W + '-' * 45)
         try:
             requests.post('https://google.com')
